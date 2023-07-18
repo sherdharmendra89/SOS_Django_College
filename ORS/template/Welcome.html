@@ -1,0 +1,25 @@
+{% include  "./Header.html"%}
+<div class="container" style="cursor: all-scroll;" >
+   {% load static %}
+<body style="background-color: whitesmoke;background-image:url({% static 'images/main-page-background.jpg'%}); background-repeat:no-repeat;width: 100%; background-size: cover">
+ </body>
+    <style>
+        mark {
+            background-color: #cacfcb9a;
+           
+
+        }
+    </style>
+
+    <div class="d-flex" style="margin-top:15%">
+        
+        <div class="mx-auto">
+            <p>
+                <h1><mark>WELCOME TO ONLINE RESULT SYSTEM</mark></h1>
+            </p>
+            <h6 align="center" style="font-size:x-large;">{{form.messege}}</h6>
+
+        </div>
+    </div>
+</div>
+{% include  "./Footer.html"%}
